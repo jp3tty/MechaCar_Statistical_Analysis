@@ -2,6 +2,8 @@
 
 ## Linear Regression to Predict MPG
 
+The data captured in the MechaCar_mpg.csv file reveals six measures recorded for the 50 prototype vehicles. A sample of the data is seen here:
+
 ![Car_Data_head](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data_head.PNG)
 
 ![Car_Data_linear_regression](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data_linear_regression.PNG)
