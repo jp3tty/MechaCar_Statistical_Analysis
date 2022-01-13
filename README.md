@@ -16,11 +16,11 @@ mpg = (6.267) VL + (0.0012) VW + (0.0688) SA + (3.546) GC - (3.411) AWD - 104.0.
 
 where
 
-VL = vehicle_length,
-VW = vehicle_weight,
-SA = spoiler_angle,
-GC = ground_clearance,
-AWD = AWD.
+* VL = vehicle_length,
+* VW = vehicle_weight,
+* SA = spoiler_angle,
+* GC = ground_clearance,
+* AWD = AWD
 
 Statistical Summary:
 
@@ -75,10 +75,10 @@ Lot 3, on the other hand, has a sample mean of 1496.14 and a p-value of 0.04168,
 ## Study Design: MechaCar vs Competition
 
 An additional statistical study to quantify MechaCar's performance against their competitors 
-*City and highway fuel efficiency
-*Horse power
-*Vehicle weight
-*AWD capabilities
-*MPG
+* City and highway fuel efficiency
+* Horse power
+* Vehicle weight
+* AWD capabilities
+* MPG
 
 
