@@ -16,6 +16,7 @@ mpg = (6.267) VL + (0.0012) VW + (0.0688) SA + (3.546) GC - (3.411) AWD - 104.0.
 
 where
 
+* mpg = miles_per_gallon
 * VL = vehicle_length,
 * VW = vehicle_weight,
 * SA = spoiler_angle,
@@ -74,11 +75,17 @@ Lot 3, on the other hand, has a sample mean of 1496.14 and a p-value of 0.04168,
 
 ## Study Design: MechaCar vs Competition
 
-An additional statistical study to quantify MechaCar's performance against their competitors 
-* City and highway fuel efficiency
-* Horse power
-* Vehicle weight
-* AWD capabilities
-* MPG
+An additional statistical study to quantify MechaCar's performance against their competitors could be vehicle acceleration rate.
 
+Metrics for this study:
 
+* Time from 0 to 60 mph (dependent variable)
+* Horse power (independent variable)
+* Vehicle weight (independent variable)
+* AWD capabilities (independent variable)
+
+We will need to measure the time from 0 to 60 for all of vehicles to run this analysis, and all metrics from the competitors.
+
+Our null hypothesis is that there is no difference in acceleration rates of MechaCar and the competitions vehicles. The alternative hypothesis is MechaCar vehicle and the competitions acceleration rates are influenced differently due to horse power, vehicle weight, and AWD capabilities.
+
+This analysis would benefit from a linear regression and a t-test.
