@@ -23,19 +23,30 @@ GC = ground_clearance,
 AWD = AWD.
 
 Statistical Summary:
+
 ![Car_Data_statistical_summary](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data__statistical_summary.PNG)
 
 From the statistical summary we see that:
 * The vehicle length and ground clearance coeeficients are likely to provide non-random amounts of variance in the model due to their low p-values. This indicates that the variance of a MechaCar's vehicle length and groud clearance coefficients will meaningfully impact mpg.
-* With a significance level of 0.05, we can reject the null hypothesis due to very low p-value of 5.35e-11 on the model.
-* An R-squared value of 0.7149 indicates that roughly 72% of mpg predictions will be correct using the linear model listed above.
+* With a significance level of 0.05, we can consider the slope of the linear model to be zero and reject the null hypothesis due to very low p-value of 5.35e-11.
+* An R-squared value of 0.7149 indicates that roughly 72% of mpg predictions will be correct using the linear model listed above. Generally, a higher R-squared value will inspire more confidence in a linear regression model, but with some experience in the subject matter this value should be adequate.
 
 
 ## Summary Statistics on Suspension Coils
 
+Another dataset contains vehicle measurements from multiple production lots. Weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
+
+A sample of the Suspension Coil data:
+
 ![Coil_Data_head](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Coil_Data_head.PNG)
 
+
+Summary of the Suspension Coil data:
+
 ![total_summary_df](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/total_summary_df.PNG)
+
+
+
 
 ![lot_summary_df](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary_df.PNG)
 
