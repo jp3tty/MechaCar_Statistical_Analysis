@@ -16,10 +16,10 @@ mpg = (6.267) VL + (0.0012) VW + (0.0688) SA + (3.546) GC - (3.411) AWD - 104.0.
 
 where
 
-VL = vehicle_length
-VW = vehicle_weight
-SA = spoiler_angle
-GC = ground_clearance
+VL = vehicle_length,
+VW = vehicle_weight,
+SA = spoiler_angle,
+GC = ground_clearance,
 AWD = AWD
 
 
