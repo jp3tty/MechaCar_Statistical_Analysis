@@ -20,11 +20,13 @@ VL = vehicle_length,
 VW = vehicle_weight,
 SA = spoiler_angle,
 GC = ground_clearance,
-AWD = AWD
+AWD = AWD.
 
-
-
+Statistical Summary:
 ![Car_Data_statistical_summary](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data__statistical_summary.PNG)
+
+From the statistical summary we see that:
+* The vehicle length and ground clearance are likely to provide non-random amounts of variance in the model.
 
 
 ## Summary Statistics on Suspension Coils
