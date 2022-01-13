@@ -1,12 +1,28 @@
 # MechaCar_Statistical_Analysis
-
-## Linear Regression to Predict MPG
-
 The data captured in the MechaCar_mpg.csv file reveals six measures recorded for the 50 prototype vehicles. A sample of the data is seen here:
 
 ![Car_Data_head](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data_head.PNG)
 
+
+## Linear Regression to Predict MPG
+
+Using the linear regression capabilities of R, a model to predict mpg for prototype vehicles was developed as seen in the image below.
+
 ![Car_Data_linear_regression](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data_linear_regression.PNG)
+
+The results give the equations:
+
+mpg = (6.267) VL + (0.0012) VW + (0.0688) SA + (3.546) GC - (3.411) AWD - 104.0.
+
+where
+
+VL = vehicle_length
+VW = vehicle_weight
+SA = spoiler_angle
+GC = ground_clearance
+AWD = AWD
+
+
 
 ![Car_Data_statistical_summary](https://github.com/jp3tty/MechaCar_Statistical_Analysis/blob/main/Images/Car_Data__statistical_summary.PNG)
 
